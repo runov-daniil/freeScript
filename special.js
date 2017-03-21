@@ -15,7 +15,7 @@ function checkSpec(spec) {
   setButton(spec);
 if (spec == 'y')
 {
-  addStyleSheet('http://insideonline.ru/free_versia_dla_slabovidyashih/vi.css');
+  addStyleSheet('https://github.com/runov-daniil/freeScript/vi.css');
 }
 }
 
@@ -93,7 +93,7 @@ if (spec == 'y')
    location.reload();
 }
 else {
-   addStyleSheet('http://insideonline.ru/free_versia_dla_slabovidyashih/vi.css');
+   addStyleSheet('https://github.com/runov-daniil/freeScript/vi.css');
    SetCookieSpec('special','y');  setButton('y');
 
    buttons_control();
@@ -334,7 +334,7 @@ if (spec == 'y')
   inputTag.value=" Стандартная версия ";
 }
 else {
-  inputTag.setAttribute("style", "position:fixed; z-index:9999; top:0%; font-size:20px; left:3%; margin: 5px;padding:5px; border: 1px black outset; font-weight:bold; background: url(http://insideonline.ru/free_versia_dla_slabovidyashih/eye.png) no-repeat; background-size:cover; width:135px; height:100px; " );
+  inputTag.setAttribute("style", "position:fixed; z-index:9999; top:0%; font-size:20px; left:3%; margin: 5px;padding:5px; border: 1px black outset; font-weight:bold; background: url(https://github.com/runov-daniil/freeScript/eye.png) no-repeat; background-size:cover; width:135px; height:100px; " );
  inputTag.value="";
  // inputTag.value=" Версия для слабовидящих ";
 }
